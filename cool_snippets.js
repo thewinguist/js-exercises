@@ -16,3 +16,9 @@ buttonB.onclick = () => {
   alert(`Hello ${prompt("What is your name?")}, nice to see you!`); //prompt EVERY time
   headingB.textContent = `Welcome ${prompt("What is your name?")}`;
 };
+
+
+/*
+VAR can be declared AFTER it is initialized (i.e. hoisted)
+LET cannot (good thing)
+*/
