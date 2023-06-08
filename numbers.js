@@ -24,8 +24,11 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Test_your_
 // Final result should be 10.42
 // Add/update your code here
 
-let result = 7 + 13 / 9 + 7;
-let result2 = 100 / 2 * 6;
+let result = (7 + 13) / (9 + 7);
+let result2 = 100 / (2 * 6);
+
+result *= result2;
+finalResult = result.toFixed(2);
 
 // Don't edit the code below here!
 
