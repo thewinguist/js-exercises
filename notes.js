@@ -21,4 +21,14 @@ buttonB.onclick = () => {
 /*
 VAR can be declared AFTER it is initialized (i.e. hoisted)
 LET cannot (good thing)
+
+let count; <-- declared? yep, initialized? nope
+const count; <-- impossibru
+
+Constants must always point to the same object,
+but we can overwrite some of its properties:
+const bird = { species: "Kestrel" };
+console.log(bird.species); // "Kestrel"
+
+
 */
