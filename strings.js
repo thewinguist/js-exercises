@@ -58,3 +58,8 @@ const browserType2 = "mozilla";
 console.log(browserType2.slice(1, 4)); // "ozi"
 //https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods
 
+const browserType3 = "mozilla";
+const updated = browserType3.replace("moz", "van");
+//browserType = browserType.replace("moz", "van");
+
+//to replace ALL occurrences: replaceAll()
