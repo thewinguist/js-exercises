@@ -43,3 +43,9 @@ section.appendChild(para1);
 section.appendChild(para2);
 
 //******end exercise
+
+// Getting a random number between two values
+function getRandomArbitrary(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+  
