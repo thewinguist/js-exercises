@@ -18,8 +18,8 @@ if (index !== -1) {
 }
 
 //loop through an array:
-for (const item of shopping) {
-  console.log(item);
+for (const song of songs) {
+  console.log(song);
 }
 
 //process each item with a function. Map() returns a NEW array.
